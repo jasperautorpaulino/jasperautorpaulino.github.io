@@ -11,55 +11,55 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<h1 id="topRightLogo"><a href="#landPage">Jasper</a></h1>
 	<div class="progressBar">
-		<a href="#educ"><i class="fas fa-apple-alt"></i></a>
-		<a href="#skills"><i class="far fa-keyboard"></i></a>
-		<a href="#exp"><i class="fas fa-briefcase"></i></a>
-		<a href="#contact"><i class="fas fa-phone"></i></a>
+		<a href="#landPage"><i class="fas fa-user-alt landPage"></i></a>
+		<a href="#educ"><i class="fas fa-apple-alt educ"></i></a>
+		<a href="#skills"><i class="far fa-keyboard skills"></i></a>
+		<a href="#exp"><i class="fas fa-briefcase exp"></i></a>
+		<a href="#contact"><i class="fas fa-phone contact"></i></a>
 	</div>
-	<section class="landingPage" id="landPage">
-		<div class="banner">
-			<h1>Jasper Autor Paulino<br><span>Web Designer | Graphic Designer</span></h1>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="#educ" id="educAnchor">Education</a></li>
-				<li><a href="#skills" id="skillsAnchor">Skills</a></li>
-				<li><a href="#exp" id="expAnchor">Industry<br>experience</a></li>
-				<li><a href="#contact" id="contactAnchor">Contact</a></li>
-			</ul>
-		</nav>
-	</section>
-	<!-- <a href="#" id="navDown"><i class="fas fa-chevron-down"></i></a> -->
-	<section id="educ">
-		<h1 id="educTitle">Education</h1>
-		<div class="tertiary">
-			<h2>Tertiary</h2>
-			<h2>BS in Information Technology</h2>
-			<h3>Polytechnic University of the Philippines<br>Sta. Mesa, Manila</h3>
-			<p>2013 - 2017</p>
-		</div>
-		<div class="secondary">
-			<h2>Secondary</h2>
-			<h3>Polytechnic University of the Philippines<br>Laboratory High School<br>Sta. Mesa, Manila</h3>
-			<p>2009 - 2013</p>
-		</div>
-		<div class="primary">
-			<h2>Primary</h2>
-			<h3>Legarda Elementary School</h3>
-			<p>2003 - 2009</p>
-		</div>
-	</section>
-	<section class="skills" id="skills">
-		<h1 id="skillsTitle">Skills</h1>
-	</section>
-	<section class="exp" id="exp">
-		<h1 id="expTitle">Experience</h1>
-	</section>
-	<section class="contact" id="contact">
-		<h1 id="contactTitle">Contact</h1>
-	</section>
+	<div class="secArea">
+		<section id="landPage" data-attr="landingPage">
+			<div class="side-image">
+				<img src="images/img_01.png" alt="">
+			</div>
+			<div class="banner">
+				<h1>Jasper Paulino<br><span>Web Designer | Graphic Designer</span></h1>
+			</div>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</section>
+		<section id="educ" data-attr="educ">
+			<h1 id="educTitle">Education</h1>
+			<div class="tertiary">
+				<h2>Tertiary</h2>
+				<h2>BS in Information Technology</h2>
+				<h3>Polytechnic University of the Philippines<br>Sta. Mesa, Manila</h3>
+				<p>2013 - 2017</p>
+			</div>
+			<div class="secondary">
+				<h2>Secondary</h2>
+				<h3>Polytechnic University of the Philippines<br>Laboratory High School<br>Sta. Mesa, Manila</h3>
+				<p>2009 - 2013</p>
+			</div>
+			<div class="primary">
+				<h2>Primary</h2>
+				<h3>Legarda Elementary School</h3>
+				<p>2003 - 2009</p>
+			</div>
+		</section>
+		<section id="skills" data-attr="skills">
+			<h1 id="skillsTitle">Skills</h1>
+		</section>
+		<section id="exp" data-attr="exp">
+			<h1 id="expTitle">Experience</h1>
+		</section>
+		<section id="contact" data-attr="contact">
+			<h1 id="contactTitle">Contact</h1>
+		</section>
+	</div>
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/script.js"></script>
