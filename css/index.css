@@ -747,7 +747,8 @@ width: 100%;
 
 	.card-img-block li img {
 		width: unset;
-		max-width: 100%;
+		max-width: 50%;
+		width: 100%;
 	}
 
 	.works .selector{
@@ -793,15 +794,17 @@ width: 100%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		flex-flow: row wrap;
-		height: 60%;
+		height: 58%;
 		width: 100%;
 		padding: 20px;
 	}
 
 	.contact ul li{
-		width: 37%;
-		height: 36%;
-		margin: 21px;
+		width: 121px;
+		min-width: 25%;
+		max-width: 35%;
+		height: 35%;
+		/* margin: 0 17px; */
 	}
 
 	.home{
