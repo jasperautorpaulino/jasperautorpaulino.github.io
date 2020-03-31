@@ -95,7 +95,9 @@ section{
 .top .header-text{
 	position: absolute;
 	top: 50%;
-	left: 10%;
+	left: 0;
+	padding-left: 10%;
+	width: 50%;
 	color: #ecf0f1;
 	transform: translateY(-50%);
 }
@@ -134,8 +136,9 @@ section{
 .top .visual i{
 	position: relative;
 	text-align: center;
-	font-size: 120px;
+	font-size: 6vw;
 	width: 25%;
+	max-width: 25%;
 	color: #ecf0f1;
 }
 
@@ -534,6 +537,7 @@ nav ul li a{
 		left: 0;
 		padding: 0 40px;
 		top: 40%;
+		width: 100%;
 	}
 
 	.top .header-text h1{
