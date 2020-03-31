@@ -10,24 +10,27 @@
 		<title>Jasper Paulino</title>
 	</head>
 	<body>
+	<div class="burgerMenu">
+		<a href="javascript:void(0)">
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#top">Home</a></li>
+			<li><a href="#works">Works</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#connect">Connect</a></li>
+		</ul>
+	</nav>
+	<div class="indicator">
+		<p>Scroll <span></span></p>
+	</div>
 	<div class="sections">
-		<div class="burgerMenu">
-			<a href="javascript:void(0)">
-				<span></span>
-				<span></span>
-			</a>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">Works</a></li>
-				<li><a href="">About</a></li>
-				<li><a href="">Connect</a></li>
-			</ul>
-		</nav>
-		<section class="top section">
+		<section class="top section" data-anchor="top">
 			<div class="header-text">
-				<h1>Jasper Paulino</h1>
+				<h1><span>Jasper Paulino</span></h1>
 				<p>Web designer <br><span>Graphic Designer</span></p>
 			</div>
 			<div class="visual">
@@ -35,55 +38,52 @@
 				<i class="fas fa-code"></i>
 				<i class="fas fa-pen-nib"></i>
 			</div>
-			<div class="indicator">
-				<p>Scroll <span></span></p>
-			</div>
 		</section>
-		<section class="works section">
-			<h3>Featured<br>works.</h3>
-			<p class="sub-title">Here are some of the websites<br>that I've created or been a part of</p>
+		<section class="works section" data-anchor="works">
+			<h3><span>Featured<br>works.</span></h3>
+			<p class="sub-title">Here are some of the websites<br>that I've created or been a part of.</p>
 			<div class="works-slider">
 				<div class="slide">
 					<div class="work-image">
-						<h4>Wacoal</h4>
+						<h4><a href="https://www.w-wing.jp/bustcarebra/">Wacoal</a></h4>
 						<img class="pclayout" src="images/wacoal-pc.png" alt="">
 						<img class="splayout" src="images/wacoal-sp.png" alt="">
 					</div>
 				</div>
 				<div class="slide">
 					<div class="work-image">
-						<h4>Shonan Beauty Clinic</h4>
+						<h4><a href="https://www.s-b-c.net/doctor/introduction/sasaki-n/special/">Shonan Beauty Clinic</a></h4>
 						<img src="images/shonan-pc.png" alt="" class="pclayout">
 						<img src="images/shonan-sp.png" alt="" class="splayout">
 					</div>
 				</div>
 				<div class="slide">
 					<div class="work-image">
-						<h4>Club Tourism</h4>
+						<h4><a href="https://www.club-t.com/omoide/entry/">Club Tourism</a></h4>
 						<img src="images/ct-omoide-pc.png" alt="" class="pclayout">
 						<img src="images/ct-omoide-sp.png" alt="" class="splayout">
 					</div>
 				</div>
 				<div class="slide">
 					<div class="work-image">
-						<h4>Alpen</h4>
+						<h4><a href="https://campaign.alpen-group.jp/ec/190726_point5/">Alpen</a></h4>
 						<img src="images/alpen-pc.png" alt="" class="pclayout">
 						<img src="images/alpen-sp.png" alt="" class="splayout">
 					</div>
 				</div>
 				<div class="slide">
 					<div class="work-image">
-						<h4>Tutuanna</h4>
+						<h4><a href="https://tutucorp.emarketing.ne.jp/">Tutuanna</a></h4>
 						<img src="images/tutu-pc.png" alt="" class="pclayout">
 						<img src="images/tutu-sp.png" alt="" class="splayout">
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="about section">
-			<h3>About<br>Me.</h3>
+		<section class="about section" data-anchor="about">
+			<h3><span>About<br>Me.</span></h3>
 			<p class="sub-title">Know more about me.</p>
-			<p class="downloadCV"><a href="">Download my CV here</a></p>
+			<!-- <p class="downloadCV"><a href="">Download my CV here</a></p> -->
 			<div class="about-slider">
 				<div class="slide">
 					<div class="about-container">
@@ -100,17 +100,17 @@
 							</dl>
 							<dl class="skill">
 								<dt>
+									<i class="fas fa-database"></i>
+									MySQL
+								</dt>
+								<dd data-attr="6"><span></span></dd>
+							</dl>
+							<dl class="skill">
+								<dt>
 									<i class="fab fa-css3-alt"></i>
 									CSS 3
 								</dt>
 								<dd data-attr="9"><span></span></dd>
-							</dl>
-							<dl class="skill">
-								<dt>
-									<i class="fab fa-js"></i>
-									Jquery
-								</dt>
-								<dd data-attr="8"><span></span></dd>
 							</dl>
 							<dl class="skill">
 								<dt>
@@ -121,8 +121,15 @@
 							</dl>
 							<dl class="skill">
 								<dt>
-									<i class="fas fa-database"></i>
-									MySQL
+									<i class="fab fa-js"></i>
+									Jquery
+								</dt>
+								<dd data-attr="8"><span></span></dd>
+							</dl>
+							<dl class="skill">
+								<dt>
+									<i class="fab fa-sass"></i>
+									SASS
 								</dt>
 								<dd data-attr="6"><span></span></dd>
 							</dl>
@@ -135,24 +142,17 @@
 							</dl>
 							<dl class="skill">
 								<dt>
-									<i class="fab fa-adobe"></i>
-									Photoshop
-								</dt>
-								<dd data-attr="9"><span></span></dd>
-							</dl>
-							<dl class="skill">
-								<dt>
-									<i class="fab fa-sass"></i>
-									SASS
-								</dt>
-								<dd data-attr="6"><span></span></dd>
-							</dl>
-							<dl class="skill">
-								<dt>
 									<i class="fab fa-drupal"></i>
 									Drupal 8
 								</dt>
 								<dd data-attr="4"><span></span></dd>
+							</dl>
+							<dl class="skill">
+								<dt>
+									<i class="fab fa-adobe"></i>
+									Photoshop
+								</dt>
+								<dd data-attr="9"><span></span></dd>
 							</dl>
 							<dl class="skill">
 								<dt>
@@ -183,8 +183,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="connect section">
-			<h3>Connect<br>with Me.</h3>
+		<section class="connect section" data-anchor="connect">
+			<h3><span>Connect<br>with Me.</span></h3>
 			<p class="sub-title">Here are ways to contact me</p>
 			<ul class="connect-box">
 				<li>
@@ -194,9 +194,15 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="https://www.linkedin.com/in/jasper-pauilno-638905183/">
 						<i class="fab fa-linkedin"></i>
 						Jasper Paulino
+					</a>
+				</li>
+				<li>
+					<a href="mailto:jasper.paulino10@gmail.com">
+						<i class="fas fa-phone"></i>
+						Will be provided thru email
 					</a>
 				</li>
 			</ul>
@@ -209,16 +215,22 @@
 	<script src="js/jquery.fullPage.js"></script>
 	<script>
 		$('.sections').fullpage({
+				anchors: ['top','works','about','connect'],
 				easing: 'easeInOutCubic',
-				loopTop: true,
+				loopTop: false,
 				navigation: true,
 				slidesNavigation: true,
 				scrollingSpeed: 1000,
-				onLeave: function(origin){
-					if(origin == 1){
+				onLeave: function(origin, index, destination){
+					if(origin == 1 || index > 1){
 						$('.indicator').css('transform','translateY(180%)');
+						$('.burgerMenu').css('right','4%');
+						if($(window).width() < 768){
+							$('.burgerMenu').css('right','0');
+						}
 					}else{
-						$('.indicator').css('transform','translateY(0%)')
+						$('.indicator').css('transform','translateY(0%)');
+						$('.burgerMenu').css('right','-100%');
 					}
 				}
 		});

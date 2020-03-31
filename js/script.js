@@ -5,6 +5,14 @@ $(function(){
 	})
 
 	$('.burgerMenu').on('click',function(){
-		$('nav').toggleClass('active')
+		$('nav').toggleClass('active');
+		setTimeout(function(){
+			$('nav ul li a').toggleClass('showNav');
+		},200)
+	});
+
+	$('nav ul li a').on('click',function(){
+		$('nav').removeClass('active');
+		$('nav ul li a').removeClass('showNav');
 	})
 })
