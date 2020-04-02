@@ -622,8 +622,13 @@ nav ul li a{
 
 	.works-slider .slide h4{
 		font-size: 15px;
-		width: 144px;
-		top: 13%;
+		width: 130px;
+		top: 18%;
+		/* right: 1px; */
+	}
+
+	.works-slider .slide h4 a{
+		padding: 8px;
 	}
 
 	.works .fp-slidesNav{
