@@ -23,4 +23,9 @@ $(function(){
 			$('.connect-box, downloadCV').attr('style','')
 		}
 	})
+	if($(window).width() >= 768){
+		$('.connect-box, downloadCV').css('display','none')
+	}else{
+		$('.connect-box, downloadCV').attr('style','')
+	}
 })
