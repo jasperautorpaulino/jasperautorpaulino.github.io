@@ -503,6 +503,127 @@ nav ul li a{
 	margin-right: 30px;
 }
 
+.connect .connect-box-lg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	width: 65%;
+	height: 100vh;
+	background: #34495e;
+	overflow: hidden;
+}
+
+.connect .connect-box-lg ul{
+	display: flex;
+	flex-direction: column;
+	margin: 0 60px;
+	height: 100%;
+	transform: rotate(-29deg) skew(10deg, 10deg) translate(50%,-10%);
+}
+
+.connect .connect-box-lg ul li{
+	width: 150px;
+	height: 150px;
+	margin: 35px 0;
+	/* transform: rotate(-35deg) skew(10deg, 10deg); */
+}
+
+.connect .connect-box-lg ul .mail:hover span{
+	background: #e74c3c;
+}
+
+.connect .connect-box-lg ul .linkedin:hover span{
+	background: #3498db;
+}
+
+.connect .connect-box-lg ul .phone:nth-child(3):hover span{
+	background: #2ecc71;
+}
+
+.connect .connect-box-lg ul li a{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color: #7b7b7b;
+	font-size: 30px;
+	transition: .3s;
+	background: #222;
+}
+
+.connect .connect-box-lg ul li a:after{
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 100%;
+	background: #222;
+	left: -10px;
+	top: 5px;
+	transform: skewY(-51deg);
+	transform-origin: bottom;
+}
+
+.connect .connect-box-lg ul li a:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 11px;
+	background: #222;
+	left: -1px;
+	bottom: -11px;
+	transform: skewX(-41deg);
+	transform-origin: top;
+}
+
+.connect .connect-box-lg ul li a:hover span{
+	transition: .3s;
+}
+
+.connect .connect-box-lg ul li a:hover{
+	color: #fff;
+}
+
+.connect .connect-box-lg ul li a:hover span:nth-child(5){
+	transform: translate(40px, -40px);
+	opacity: 1;
+}
+
+.connect .connect-box-lg ul li a:hover span:nth-child(4){
+	transform: translate(30px, -30px);
+	opacity: 0.8;
+}
+
+.connect .connect-box-lg ul li a:hover span:nth-child(3){
+	transform: translate(20px, -20px);
+	opacity: 0.6;
+}
+
+.connect .connect-box-lg ul li a:hover span:nth-child(2){
+	transform: translate(10px, -10px);
+	opacity: 0.4;
+}
+
+.connect .connect-box-lg ul li a:hover span:nth-child(1){
+	transform: translate(0px, 0px);
+	opacity: 0.2;
+}
+
+.connect .connect-box-lg ul li a span{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+}
+
+.connect .connect-box-lg ul li a span:nth-child(5){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* start modify fullpag.css */
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
 	background: #fff !important;
@@ -518,7 +639,7 @@ nav ul li a{
 
 @media screen and (max-width: 768px){
 	.pcOnly{
-		display: none;
+		display: none !important;
 	}
 
 	.spOnly{
@@ -624,7 +745,6 @@ nav ul li a{
 		font-size: 15px;
 		width: 130px;
 		top: 18%;
-		/* right: 1px; */
 	}
 
 	.works-slider .slide h4 a{

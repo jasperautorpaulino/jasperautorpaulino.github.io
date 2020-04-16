@@ -15,4 +15,12 @@ $(function(){
 		$('nav').removeClass('active');
 		$('nav ul li a').removeClass('showNav');
 	})
+
+	$(window).resize(function(){
+		if($(window).width() >= 768){
+			$('.connect-box, downloadCV').css('display','none')
+		}else{
+			$('.connect-box, downloadCV').attr('style','')
+		}
+	})
 })
