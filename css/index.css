@@ -518,8 +518,8 @@ nav ul li a{
 	display: flex;
 	flex-direction: column;
 	margin: 0 60px;
-	height: 100%;
-	transform: rotate(-29deg) skew(10deg, 10deg) translate(50%,-10%);
+	height: 200%;
+	transform: rotate(-29deg) skew(10deg, 10deg) translate(50%,0);
 }
 
 .connect .connect-box-lg ul li{
@@ -537,7 +537,7 @@ nav ul li a{
 	background: #3498db;
 }
 
-.connect .connect-box-lg ul .phone:nth-child(3):hover span{
+.connect .connect-box-lg ul .phone:hover span{
 	background: #2ecc71;
 }
 
