@@ -1,0 +1,21 @@
+{
+  "name": "jasperautorpaulino.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasperautorpaulino/jasperautorpaulino.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasperautorpaulino/jasperautorpaulino.github.io/issues"
+  },
+  "homepage": "https://github.com/jasperautorpaulino/jasperautorpaulino.github.io#readme"
+}
